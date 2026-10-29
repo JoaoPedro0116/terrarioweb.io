@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+body{
+ width: 100%;
+ height: 100vh;
+ background-color: rgb(255, 255, 255);
+ font-family: "Roboto", sans-serif;
+}
+nav{
+    margin-top: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  
+}
+li img{
+    margin-left: -10px;
+   
+}
+li {
+   padding-top: 10px;
+   
+   
+}
+a{
+   text-decoration: none;
+   color: rgb(114, 73, 2);;
+   font-weight: 800;
+}
+#nav-center ul {
+    justify-content: space-between;
+}
+#nav-center li {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+#explore{
+ background-color: rgb(0, 111, 43);
+ color: rgb(255, 255, 255);
+ border-radius: none;
+ border: none;
+ padding: 8px;
+}
+.top-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.top-page h1{
+    color: rgb(0, 0, 0);
+    width: 300px;
+    font-weight: 700;
+}
+.gradiente-nft{
+
+    background-image: linear-gradient(180deg, rgb(0, 103, 38) 30%, rgb(0, 236, 31));
+
+    display: inline-block;
+    /*Recorte o fundo até o texto*/
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    /*Defina a cor do texto para transparente*/
+    color: transparent;
+
+}
+.top-page p{
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+}
+.top-page button{
+    margin-top: 8px;
+
+}
+.box-text{
+    margin-right: 5%;
+   
+  
+}
+.box-text p {
+    width: 350px;
+}
+.box-text h1{
+    width: 400px;
+}
+ #wallet{
+    border: 2px;
+    border-color:rgb(255, 255, 255);
+    background-image: linear-gradient(180deg, rgb(1, 91, 34) 10%, rgb(3, 197, 29));
+
+    color: rgb(255, 252, 252);
+    
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bold;
+
+}
+ .more{
+    border: 2px;
+    border-color:rgb(0, 0, 0);
+    background-color: transparent;
+    
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(0, 148, 15), rgb(3, 182, 15)) 1;
+    padding: 4px;
+
+    color: rgb(0, 96, 14);
+
+}
+#menber{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+#menber p{
+    padding-right: 15px;
+}
+#img-nft{
+    width: 400px;
+}
+.finish{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 73, 2);
+    margin-top: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 200px;
+  
+}
+.card-pai{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+#card1{
+    z-index: 1;
+}
+.card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin-top: -20px;
+   
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(52, 52, 52, 0.458);
+}
+.card h1{
+    color: rgb(0, 90, 24);
+}
+.card p {
+    width: 280px;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+    color: rgb(7, 116, 22);
+
+}
+.get{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.card span{
+    color:  rgb(0, 0, 0);
+    
+}
+#arrow, #arrow2, #arrow3{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgb(0, 0, 0);
+}
+#bitcoin{
+    margin: 0 auto;
+    display: block;
+    margin-top: -130px;
+    width: 20%;
+  
+}
+.bitcoin{
+    width: 50px;
+}
+#bitcoin {
+   
+    transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+#bitcoin:hover{
+    transform: scale(1.1) translateY(-8px);
+}
+
+.half-ellipse-yellow, .half-ellipse-purple, .half-ellipse-red{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -140px;
+   
+    border-top-left-radius: 100px 50px;
+    border-top-right-radius: 100px 50px;
+    filter: blur(20px);
+    z-index: -1;
+}
+.half-ellipse-red{
+    background: radial-gradient(ellipse at top, rgba(38, 0, 255, 0.7), rgba(255, 255, 0, 0) 70%);   
+}
+.half-ellipse-purple{
+    background: radial-gradient(ellipse at top, rgba(117, 67, 227, 1), rgba(255, 255, 0, 0) 70%);   
+}
+
+.box-trade{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    flex-wrap: wrap;
+}
+.box-trade h1{
+    color: rgb(0, 0, 0);
+    width: 350px;
+}
+.box-trade p{
+    width: 360px;
+    color: rgb(0, 0, 0);
+    margin-top: 14px;
+}
+.trade{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    
+}
+.trade .more{
+    width: 100px;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+
+.suport{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+.blush{
+    -webkit-box-shadow:0px 0px 86px 45px rgb(95, 8, 235);
+-moz-box-shadow: 0px 0px 85px 45px rgba(188, 45, 255, 0.9);
+box-shadow: 0px 0px 86px 45px rgba(146, 45, 255, 0.9);
+
+}
